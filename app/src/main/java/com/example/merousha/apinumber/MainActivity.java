@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void execute(Realm realm) {
                 myRealm.copyToRealmOrUpdate(repos);
-                Toast.makeText(MainActivity.this,"Added Successfully",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Added Successfully", Toast.LENGTH_SHORT).show();
             }
         });
 
